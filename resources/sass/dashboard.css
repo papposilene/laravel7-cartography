@@ -1,0 +1,46 @@
+body {
+    padding-top: 3rem !important;
+}
+
+/*
+ * jQuery-UI hack for Bootstrap modal
+ */
+.ui-front {
+    z-index: 999999 !important;
+}
+
+/*
+ * Leaflet
+ */
+#map-container {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 4.5em;
+    left: 0;
+}
+.leaflet-sidebar .close {
+    color: #000 !important;
+    z-index: 1000 !important;
+}
+.leaflet-map {
+    height: 300px;
+}
+.leaflet-popup-content-wrapper {
+    color: #fff !important;
+    background-color: #212529 !important;
+    min-height: 123px !important;
+    width: 234px !important;
+}
+.leaflet-popup-tip {
+    background-color: #212529 !important;
+}
+.leaflet-popup-close-button {
+    padding: 8px 12px 0 0 !important;
+}
+.leaflet-map-new {
+    height: 300px;
+    width: 100%;
+}

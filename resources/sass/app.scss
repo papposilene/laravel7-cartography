@@ -1,0 +1,29 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+// Variables
+//@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import url('dashboard.css');
+
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+// Jquery-UI
+@import '~jquery-ui/themes/base/all.css';
+
+// Leaflet
+@import '~leaflet/dist/leaflet.css';
+@import '~leaflet-control-geocoder/dist/Control.Geocoder.css';
+@import '~leaflet-fa-markers/L.Icon.FontAwesome.css';
+@import '~leaflet-sidebar/src/L.Control.Sidebar.css';
+@import '~leaflet.fullscreen/Control.FullScreen.css';
+@import '~leaflet.locatecontrol/dist/L.Control.Locate.css';
+@import '~leaflet.markercluster/dist/MarkerCluster.css';
+@import '~leaflet.markercluster/dist/MarkerCluster.Default.css';
+
