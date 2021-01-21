@@ -4,15 +4,13 @@ This small project allows you to create an address book with a visualization on 
 ## Installation
 After selecting a folder, please activate the following command:
 ```shell
-composer require "papposilene/laravel7-cartography"
+git clone https://github.com/papposilene/laravel-cartography.git
 ```
-It will install [Laravel](https://laravel.com/) and all the packages for the proper functioning of the application.
 
-After installation, several operations should be automatically performed. But, you can launch them yourself with the commands below:
+After cloning, several operations should be automatically performed. But, you can launch them yourself with the commands below:
 ```shell
-php artisan storage:link
-php artisan migrate --seed
-php artisan cache:clear
+composer install
+npm install
 ```
 
 ## Customization
