@@ -33,7 +33,7 @@ class AppServiceProvider extends ServiceProvider
         $menuContinents = Country::selectRaw('count(*) AS continents, region')->orderBy('continents', 'desc')->groupBy('region')->get();
         view::share('menuCategories', $menuCategories);
         view::share('menuContinents', $menuContinents);
-        
+
         Blade::directive('date', function ($expression) {
             return "<?php echo ($expression)->format('d/m/Y'); ?>";
         });
